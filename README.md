@@ -94,12 +94,13 @@ Adjust these properties based on your MySQL configuration.
 
 ## Database Setup
 
-1. **Create Database**
-From your MySQL command line or client (e.g., MySQL Workbench), run:
-```sql
-CREATE DATABASE employeeDB;
-USE employeeDB;
+1. **Create Database**  
+   From your MySQL command line or client (e.g., MySQL Workbench), run:
+   ```sql
+   CREATE DATABASE employeeDB;
+   USE employeeDB;
 2. **Automatic Table Creation**
+
 When the application runs, it will attempt to create the `employees` table if it does not exist.
 
 **Note**: For any advanced customization or manual table creation, refer to `employeedatabase.sql` or the SQL in `createNewTable()` in the `EmployeeDatabase` class.
