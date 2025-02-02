@@ -104,3 +104,24 @@ Adjust these properties based on your MySQL configuration.
 When the application runs, it will attempt to create the `employees` table if it does not exist.
 
 **Note**: For any advanced customization or manual table creation, refer to `employeedatabase.sql` or the SQL in `createNewTable()` in the `EmployeeDatabase` class.
+
+---
+
+## Project Structure
+
+```pgsql
+Employee-Management-System-with-JavaFX
+├── com
+│   └── example
+│       └── demo
+│           ├── EmployeeDatabase.java
+│           └── EmployeeManager.java
+├── employeedatabase.sql
+└── README.md
+
+- **EmployeeDatabase.java**: Contains the JDBC logic for connecting to the MySQL database, creating tables, and handling CRUD operations.  
+- **EmployeeManager.java**: A JavaFX application that provides a graphical interface to interact with the backend.  
+- **employeedatabase.sql**: SQL commands for database creation (optional manual setup).
+
+---
+
