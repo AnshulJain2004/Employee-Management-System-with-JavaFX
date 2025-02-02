@@ -109,7 +109,7 @@ When the application runs, it will attempt to create the `employees` table if it
 
 ## Project Structure
 
-```pgsql
+```bash
 Employee-Management-System-with-JavaFX
 ├── com
 │   └── example
@@ -118,6 +118,7 @@ Employee-Management-System-with-JavaFX
 │           └── EmployeeManager.java
 ├── employeedatabase.sql
 └── README.md
+```
 
 ---
 
@@ -125,11 +126,11 @@ Employee-Management-System-with-JavaFX
 
 Contributions are welcome! If you have any suggestions or improvements:
 
-1. **Fork the repository**  
-2. **Create a feature branch** (`git checkout -b feature/YourFeature`)  
-3. **Commit your changes** (`git commit -m 'Add some feature'`)  
-4. **Push to the branch** (`git push origin feature/YourFeature`)  
-5. **Open a Pull Request**
+- **Fork the repository**
+- **Create a feature branch** (`git checkout -b feature/YourFeature`)
+- **Commit your changes** (`git commit -m 'Add some feature'`)
+- **Push to the branch** (`git push origin feature/YourFeature`)
+- **Open a Pull Request**
 
 ---
 
