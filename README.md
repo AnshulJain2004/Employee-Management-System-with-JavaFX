@@ -119,10 +119,20 @@ Employee-Management-System-with-JavaFX
 ├── employeedatabase.sql
 └── README.md
 
+---
 
-- **EmployeeDatabase.java**: Contains the JDBC logic for connecting to the MySQL database, creating tables, and handling CRUD operations.  
-- **EmployeeManager.java**: A JavaFX application that provides a graphical interface to interact with the backend.  
-- **employeedatabase.sql**: SQL commands for database creation (optional manual setup).
+## Contributing
+
+Contributions are welcome! If you have any suggestions or improvements:
+
+1. **Fork the repository**  
+2. **Create a feature branch** (`git checkout -b feature/YourFeature`)  
+3. **Commit your changes** (`git commit -m 'Add some feature'`)  
+4. **Push to the branch** (`git push origin feature/YourFeature`)  
+5. **Open a Pull Request**
 
 ---
 
+## License
+
+This project is licensed under the **MIT License**. You are free to use, modify, and distribute this project as per the terms of the license.
