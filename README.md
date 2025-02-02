@@ -119,6 +119,7 @@ Employee-Management-System-with-JavaFX
 ├── employeedatabase.sql
 └── README.md
 
+
 - **EmployeeDatabase.java**: Contains the JDBC logic for connecting to the MySQL database, creating tables, and handling CRUD operations.  
 - **EmployeeManager.java**: A JavaFX application that provides a graphical interface to interact with the backend.  
 - **employeedatabase.sql**: SQL commands for database creation (optional manual setup).
